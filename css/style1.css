@@ -1,0 +1,82 @@
+html
+{
+	background-color : #0f0e0e;
+	color : black ;
+	background-size : 100% 100%;
+}
+body
+{
+	width : 90%;
+	margin : auto;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	border: 2px solid #EEEEEE;
+	background-image : url(1124645.jpg);
+	background-size : 100% 100%;
+	
+}
+h1
+{
+	font-size : 20pt;
+	font-family : sans-serif;
+	font-weight : bold;
+	color : white;
+	background-color : #4C0B5F;
+	text-align : center;
+	opacity : 0.5;
+	padding : 10px;
+}
+h2
+{
+	font-size : 16pt;
+	color : rgb(21, 255, 0);
+	background-color : #6A0888;
+	text-align : center;
+	
+	padding : 5px;
+}
+p, ul
+{
+	color : rgb(255, 255, 255);
+	font-size : 12pt;
+	text-align : justify;
+}
+p
+{
+	margin-left : 20px;
+	margin-right : 20px;
+	border-left : 2px solid #E0E0E0;
+	padding-left : 10px;
+}
+ul
+{
+	margin-left : 30px;
+	margin-right : 30px;
+}
+code
+{
+	color : orange;
+}
+a:link
+{
+	color : red;
+	text-decoration : underline;
+}
+a:visited
+{
+	color : rgb(4, 0, 255);
+}
+a:hover
+{
+	background-color : rgb(255, 0, 242);
+	color : white;
+	text-decoration : none;
+	font-style : italic;
+}
+
+.image 
+{
+	/* border: 1px solid black; */
+	margin: 10px;
+	padding: 10px;
+}

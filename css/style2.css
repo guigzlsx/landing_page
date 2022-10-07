@@ -79,6 +79,7 @@ p
 	text-align: center;
 	color : rgb(255, 255, 255);
 	font-style:oblique;
+	font-size: 120%;
 }
 	
 
@@ -114,7 +115,7 @@ a:hover {
 .image_center {
 	text-align: center;
 	display:flex;
-	justify-content:center;
+	justify-content:space-around;
 	flex-wrap: wrap;
 	/*flex-flow:*/
 	
@@ -123,8 +124,21 @@ a:hover {
 .image_market
 {
 	text-align: center;
+	display:flex;
+	justify-content:right;
+	flex-wrap: wrap;
 	
 }
+
+.image_tg
+{
+	text-align: center;
+	display:flex;
+	justify-content:left;
+	flex-wrap: wrap;
+}
+
+
 
 .div_images {
 	display: flex; /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -177,6 +191,45 @@ a:hover {
 	color : rgb(255, 255, 255); 
 }
 
-@media screen and (max_widht:900px){
-	font-size: 60px;
+@media * (min-width: 800px) 
+{
+	.container {
+	  margin: 1em 2em;
+	}
+	h1 {
+		font-size: 4rem;
+	  }
+	.texte_de-mort {
+		font-size: 4rem;
+		margin-left : 20px;
+	margin-right :20px;
+	  }
+  }
+
+.texte_de_mort
+{
+	border-left : 2px solid #ffffff;
+	font-size: 1.2rem;	
+	margin-left : 20px;
+	margin-right :550px;
+	padding-left : 10px;
+	color : rgb(255, 255, 255);
+	font-style:oblique;
+	font-size: 120%;
+	justify-content:left;
+	align-items: flex-start;
+}
+
+.texte_3
+{
+	border-left : 2px solid #ffffff;
+	font-size: 1.2rem;	
+	margin-left : 520px;
+	margin-right :20px;
+	padding-left : 10px;
+	color : rgb(255, 255, 255);
+	font-style:oblique;
+	font-size: 120%;
+	justify-content:right;
+	align-items: flex-start;
 }

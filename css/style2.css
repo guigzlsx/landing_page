@@ -75,11 +75,12 @@ p
 	font-size: 1.2rem;	
 	margin-left : 20px;
 	margin-right : 20px;
-	padding-left : 10px;
-	text-align: center;
+	padding : 20px;
+	/*text-align: center;*/
 	color : rgb(255, 255, 255);
 	font-style:oblique;
 	font-size: 120%;
+	
 }
 	
 
@@ -89,8 +90,13 @@ h3
 }
 
 ul {
-	list-style-type: square;
-	text-align : justify;
+	/*list-style-type: square;*/
+	display: flex;
+	text-align : center;
+	justify-content: space-around;
+	font-style: italic;
+	font-size: 135%;
+	text-decoration: underline;
 	
 }	
 
@@ -133,9 +139,9 @@ a:hover {
 .image_tg
 {
 	text-align: center;
-	display:flex;
+	/* display:flex;
 	justify-content:left;
-	flex-wrap: wrap;
+	flex-wrap: wrap; */
 }
 
 
@@ -191,7 +197,7 @@ a:hover {
 	color : rgb(255, 255, 255); 
 }
 
-@media * (min-width: 800px) 
+@media screen and (min-width: 800px) 
 {
 	.container {
 	  margin: 1em 2em;
@@ -199,14 +205,19 @@ a:hover {
 	h1 {
 		font-size: 4rem;
 	  }
-	.texte_de-mort {
+	.texte_2 {
 		font-size: 4rem;
 		margin-left : 20px;
-	margin-right :20px;
+	    margin-right :20px;
+	  }
+	.texte_3 {
+		font-size: 4rem;
+		margin-left : 20px;
+	    margin-right :20px;
 	  }
   }
 
-.texte_de_mort
+/*.texte_2
 {
 	border-left : 2px solid #ffffff;
 	font-size: 1.2rem;	
@@ -218,18 +229,20 @@ a:hover {
 	font-size: 120%;
 	justify-content:left;
 	align-items: flex-start;
+	
 }
 
 .texte_3
 {
 	border-left : 2px solid #ffffff;
 	font-size: 1.2rem;	
-	margin-left : 520px;
-	margin-right :20px;
+	margin-left : 20px;
+	margin-right :400px;
 	padding-left : 10px;
 	color : rgb(255, 255, 255);
 	font-style:oblique;
 	font-size: 120%;
-	justify-content:right;
+	justify-content:left; 
 	align-items: flex-start;
-}
+	
+}*/

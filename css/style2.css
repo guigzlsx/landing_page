@@ -112,11 +112,11 @@ a:hover {
 	color: rgb(255, 0, 191);
 }
 
-/*a:visited
+a:visited
 {
 	color : rgb(144, 72, 255);
 	font-style : italic;
-} */
+} 
 
 .image_center {
 	text-align: center;
